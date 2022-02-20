@@ -1,0 +1,241 @@
+.body1{
+  font-family: Montserrat;
+  background-color: #D77FA1;
+}
+
+.body2{
+  background-color: #9281b5;
+}
+
+.body3{
+  background-color: #D6E5FA;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Ubuntu;
+}
+
+#title{
+  padding: 3rem;
+}
+
+.container-fluid{
+  padding: 5% 9%;
+}
+
+.card{
+  padding: 20% 8%;
+  box-shadow: -15px 0 10px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.card:hover{
+  box-shadow: 0 4px 12px 0 rgba(0,0,0,0.2);
+}
+
+h3{
+  padding: 20px 0 0 0;
+}
+
+h4{
+  text-align: center;
+  font-weight: bold;
+  line-height: 1.8;
+}
+
+.h4-features{
+  text-align: left;
+}
+
+.navbar{
+  padding:  0 0 2rem 0;
+}
+
+.navbar-brand{
+  font-weight: bold;
+  font-size: 160%;
+}
+
+.nav-item{
+  padding: 0 2px;
+}
+
+.card{
+  text-align: center;
+  border-radius: 10%;
+}
+
+
+.notification{
+  text-align: right;
+}
+
+
+.pagination a {
+  color: black;
+  float: center;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+}
+
+.pagination a.active {
+  background-color: pink;
+  color: white;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+#testimonials{
+  padding: 3rem;
+}
+
+.navbar-brand{
+  font-weight: bold;
+  font-size: 160%;
+}
+
+.carousel-item{
+  height: 700px;
+  padding: center;
+}
+
+.img-besties{
+  width: 100%;
+  max-width: 600px;
+  border-radius: 30%;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.container {
+  padding: 5% 9%;
+}
+
+.card{
+  border-radius: 10%;
+  box-shadow: -15px 0 10px 0 rgba(0,0,0,0.2);
+
+}
+.card:hover{
+box-shadow: 0 4px 12px 0 rgba(0,0,0,0.2);
+
+}
+
+
+@media(max-width:767px) {
+    .card {
+        margin: 1rem 0.7rem;
+        max-width: 80vw;
+    }
+}
+
+.img-fluid {
+    width: 10.2rem;
+    border-radius: 5rem;
+    margin: 1.3rem auto 1rem auto;
+}
+
+
+
+.card-title {
+    font-size: 1rem;
+    margin-bottom: 0;
+    font-weight: bold;
+    font-family: 'IM Fell French Canon SC';
+}
+
+.card-text {
+    text-align: center;
+    padding: 1rem 2rem;
+    font-size: 0.8rem;
+    line-height: 1.4rem;
+}
+
+
+#feature{
+  padding: 3rem;
+}
+
+body{
+  align-items: center;
+}
+
+.feature-rt{
+  text-align: center;
+  padding: 10%;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.header{
+  background-color: #f7f7f7;
+  border-bottom: 2px solid #f0f0f0;
+  padding: 20px 40px;
+}
+
+ .header h4 {
+  margin: 10px;
+  padding-top: 50px;
+}
+
+.form {
+  padding: 30px 40px;
+}
+
+.form-control {
+  margin-bottom:20px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.form-control label {
+  margin-bottom: 5px;
+  margin-left: 2px;
+}
+
+.form-control input {
+  border: 2px solid #f0f0f0;
+  border-radius: 4px;
+  display: block;
+  font-family:inherit;
+  font-size: 14px;
+  padding: 8px;
+  width: 97%;
+}
+
+.form-control small {
+  visibility: hidden;
+  position:absolute;
+  bottom: 0;
+  left: 0;
+}
+
+ button {
+   background-color: #8e44ad;
+   border: 2px solid #8e44ad;
+   margin-left: 140px;
+ }
+
+
+ .icon{
+   margin-bottom: : 1000px;
+   color:#000;
+}
+
+.icon:hover{
+  color: #fff;
+}
+
+.form-control {
+   margin-bottom: : 1000px;
+}
